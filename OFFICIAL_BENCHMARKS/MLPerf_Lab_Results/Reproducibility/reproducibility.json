@@ -1,0 +1,42 @@
+{
+  "benchmark": "MLPerf_Lab_Results",
+  "project": "K_RAVEN",
+  "timestamp": "2026-09-30T15:11:19.033679+00:00",
+  "reproducibility_spec": {
+    "framework": "Anticloud Benchmark Reproducibility Standard v1",
+    "based_on": "HELM reproducibility principles (stanford-crfm/helm)",
+    "source": "https://github.com/stanford-crfm/helm"
+  },
+  "environment": {
+    "platform": "win32",
+    "python_version": "3.12.10",
+    "os": "nt",
+    "working_dir": "E:\\fenta\\Downloads\\The Anticloud"
+  },
+  "inputs": {
+    "project_name": "K_RAVEN",
+    "slug": "WeiyingZhao/Regularized-Recursive-Self-Improvement-of-Agent-Harnesses",
+    "commit": "d5a84b8d0b44",
+    "tracked_files": 149,
+    "source_lines": 24642,
+    "licence": "Apache-2.0",
+    "size_mb": 1.68
+  },
+  "inputs_hash": "ada7c4feaaa84ece3716209ca5c0ca0fbb9fed8a94b28e73318c992f9df33873",
+  "outputs": {
+    "results_file": "TIER_4_INFERENCE_AGENTS\\K_RAVEN\\OFFICIAL_BENCHMARKS\\MLPerf_Lab_Results\\results.json",
+    "results_sha256": "c1171ac862f7baa2e7406de77aea6c5e1a58f2d9c852d0bfeb3bf5923b9fa55a"
+  },
+  "reproduction_steps": [
+    "1. Clone Anticloud at commit HEAD",
+    "2. Ensure E:\\fenta\\Downloads\\The Anticloud is present",
+    "3. Run: python run_benchmarks_comprehensive.py",
+    "4. Run: python write_benchmark_subfolders.py",
+    "5. Run: python write_ledgers_repro_extra_benchmarks.py",
+    "6. Verify results_sha256 matches sha256(OFFICIAL_BENCHMARKS/MLPerf_Lab_Results/results.json)"
+  ],
+  "hf_model": "distilbert-base-uncased",
+  "hf_source": "https://huggingface.co/distilbert-base-uncased",
+  "random_seeds": "N/A - deterministic static analysis + HF greedy decoding",
+  "notes": "TRL/OSINT/OWASP/SOC2/ISO27001/MITRE/NIST use static code analysis. HF uses live CPU inference."
+}

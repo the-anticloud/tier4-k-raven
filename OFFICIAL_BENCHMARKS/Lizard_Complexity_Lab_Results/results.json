@@ -1,0 +1,14 @@
+{
+  "benchmark": "Lizard_Complexity_Lab_Results",
+  "project": "K_RAVEN",
+  "run_timestamp": "2026-09-30T17:14:20.030944+00:00",
+  "source": "https://github.com/terryyin/lizard",
+  "results": {
+    "framework": "Lizard \u2014 Multi-Language Complexity Analyzer",
+    "source": "https://github.com/terryyin/lizard",
+    "total_functions": null,
+    "avg_cyclomatic_complexity": null,
+    "status": "SKIP",
+    "raw_output": "================================================\n  NLOC    CCN   token  PARAM  length  location  \n------------------------------------------------\n      12     10    179      1      12 load@41-52@E:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\K_RAVEN\\UPSTREAM\\domains\\coding\\scripts\\swe_summary.py\n       8      7    144      2       8 report@55-62@E:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\K_RAVEN\\UPSTREAM\\domains\\coding\\scripts\\swe_summary.py\n       4      3     54      1       6 coding_runtime@59-64@E:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\K_RAVEN\\UPSTREAM\\domains\\coding\\adapter.py\n       4      1     50      2       5 harbor_env@67-71@E:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\K_RAVEN\\UPSTREAM\\domains\\coding\\adapter.py\n       8      3     46      1       8 _load_result@77-84@E:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\K_RAVEN\\UPSTREAM\\domains\\coding\\adapter.py\n       2      1     30      1       2 _short@87-88@E:\\fent"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "benchmark": "Radon_Complexity_Lab_Results",
+  "project": "K_RAVEN",
+  "run_timestamp": "2026-09-30T17:14:20.030944+00:00",
+  "source": "https://radon.readthedocs.io/",
+  "results": {
+    "framework": "Radon \u2014 Cyclomatic Complexity & Maintainability Index",
+    "source": "https://radon.readthedocs.io/",
+    "files_analyzed": 10,
+    "average_complexity": {
+      "grade": "B",
+      "score": 5.6415094339622645
+    },
+    "complexity_grade": "B",
+    "complexity_score": 5.6415094339622645,
+    "status": "PASS",
+    "raw_output": "E:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\K_RAVEN\\UPSTREAM\\rrsi.py\n    F 158:0 dispatch - D (25)\n    F 105:0 main - B (10)\n    F 82:0 cmd_doctor - B (7)\n    F 96:0 cmd_plan - A (2)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\K_RAVEN\\UPSTREAM\\domains\\_anticloud_egress.py\n    F 38:0 _is_frontier - A (4)\n    F 43:0 guarded_connect - A (4)\n    F 61:0 install - A (3)\n    F 33:0 is_offline - A (1)\n    C 29:0 EgressDenied - A (1)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\K_RAVEN\\UPSTREAM\\rrsi\\analyst.py\n    F 121:0 analyze - D (26)\n    F 113:0 task_table - A (4)\n    F 105:0 prepare_rendered - A (3)\n    F 200:0 load_digests - A (3)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\K_RAVEN\\UPSTREAM\\rrsi\\calibrate.py\n    F 85:0 calibrate - B (9)\n    F 54:0 bootstrap_se - B (8)\n    F 71:0 pooled - A (4)\n    F 115:0 read_delta - A (2)\n    F 111:0 write - A (1)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\K_RAVEN\\UPSTREAM\\rrsi\\components.py\n    F 61:0 text_only - B (10)\n    F 72:0 classify_diff - B (6)\n    F 82:0 has_evidence - B (6)\n    F 95:0 normalize - A (4)\n    F 103:0 novelty - A (4)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\K_RAVEN\\UPSTREAM\\rrsi\\config.py\n    M 134:4 RRSIConfig.validate - C (17)\n    C 88:0 RRSIConfig - B (10)\n    M 121:4 RRSIConfig.load - B (9)\n    F 73:0 misspelled_keys - B (7)\n    F 69:0 _is_num - A (3)\n    F 65:0 _is_int - A (2)\n    C 61:0 ConfigError - A (1)\n    M 187:4 RRSIConfig.dump",
+    "mi_output": "E:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\K_RAVEN\\UPSTREAM\\rrsi.py - A (59.02)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\K_RAVEN\\UPSTREAM\\domains\\_anticloud_egress.py - A (79.55)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\K_RAVEN\\UPSTREAM\\domains\\__init__.py - A (100.00)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\K_RAVEN\\UPSTREAM\\rrsi\\analyst.py - A (58.55)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\K_RAVEN\\UPSTREAM\\rrsi\\cal"
+  }
+}
